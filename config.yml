@@ -45,6 +45,8 @@ homebrew_installed_packages:
   - zsh-history-substring-search
   - emacs
   - ack
+  - graphviz
+  - imagemagick
 
 homebrew_taps:
   - homebrew/core
