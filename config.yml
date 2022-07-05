@@ -38,6 +38,8 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - git
+  - name: inspec
+    install_options: quiet
   - nmap
   - readline
   - openssl
@@ -52,6 +54,7 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - chef/chef
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
