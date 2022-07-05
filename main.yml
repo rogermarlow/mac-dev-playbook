@@ -24,6 +24,11 @@
     - role: geerlingguy.mac.dock
       when: configure_dock
       tags: ['dock']
+    - role: rvm.ruby
+      tags: ruby
+      become: yes
+      rvm1_rubies: ['ruby-2.7.6']
+      rvm1_user: rogmarlo
 
   tasks:
     - import_tasks: tasks/sudoers.yml

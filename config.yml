@@ -47,6 +47,7 @@ homebrew_installed_packages:
   - ack
   - graphviz
   - imagemagick
+  - gnupg
 
 homebrew_taps:
   - homebrew/core
