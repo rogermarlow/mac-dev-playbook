@@ -38,8 +38,6 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - git
-  - name: inspec
-    install_options: quiet
   - nmap
   - readline
   - openssl
@@ -62,6 +60,7 @@ homebrew_cask_apps:
   - vagrant
   - iterm2
   - virtualbox
+  - inspec
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
