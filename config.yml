@@ -48,8 +48,6 @@ homebrew_installed_packages:
   - graphviz
   - imagemagick
   - gnupg
-  - go
-
 
 homebrew_taps:
   - homebrew/core
@@ -62,8 +60,7 @@ homebrew_cask_apps:
   - vagrant
   - iterm2
   - virtualbox
-  - inspec
-  - chefdk
+  - rectangle
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
