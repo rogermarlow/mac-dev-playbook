@@ -50,6 +50,7 @@ homebrew_installed_packages:
   - gnupg
   - spaceship
   - zsh-syntax-highlighting
+  - nvm
 
 homebrew_taps:
   - homebrew/core
