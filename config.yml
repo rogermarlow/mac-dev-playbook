@@ -51,6 +51,7 @@ homebrew_installed_packages:
   - spaceship
   - zsh-syntax-highlighting
   - nvm
+  - java
 
 homebrew_taps:
   - homebrew/core

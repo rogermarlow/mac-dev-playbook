@@ -1,0 +1,17 @@
+---
+# homebrew doesn't put Java on the path
+- name: Add java to zsh path
+  vars:
+    local_shell: "{{ lookup('env','SHELL') }}"
+  ansible.builtin.lineinfile:
+    path: ~/.zshrc
+    line: export PATH="/usr/local/opt/openjdk/bin:$PATH"
+  when: local_shell == '/bin/zsh'
+
+- name: Add java to bash path
+  vars:
+    local_shell: "{{ lookup('env','SHELL') }}"
+  ansible.builtin.lineinfile:
+    path: ~/.bashrc
+    line: export PATH="/usr/local/opt/openjdk/bin:$PATH"
+  when: local_shell == '/bin/bash'
