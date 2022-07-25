@@ -47,6 +47,9 @@
     - import_tasks: tasks/javapath.yml
       tags: ['java']
 
+    - import_tasks: tasks/sdkman.yml
+      tags: ['java','sdkman']
+
     - block:
         - name: Run configured post-provision ansible task files.
           include_tasks: "{{ outer_item }}"

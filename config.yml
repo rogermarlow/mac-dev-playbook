@@ -52,10 +52,15 @@ homebrew_installed_packages:
   - zsh-syntax-highlighting
   - nvm
   - java
+  - rabbitmq
+  - zookeeper
+  - sbt
+  - coursier/formulas/coursier
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
