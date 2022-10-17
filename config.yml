@@ -56,6 +56,7 @@ homebrew_installed_packages:
   - zookeeper
   - sbt
   - coursier/formulas/coursier
+  - libpq
 
 homebrew_taps:
   - homebrew/core
@@ -73,7 +74,7 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 443987910, name: "1Password" }
-
+  - { id: 1569813296, name: "1Password for Safari"}
 #mas_email: ""
 #mas_password: ""
 
