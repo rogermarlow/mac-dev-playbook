@@ -57,6 +57,7 @@ homebrew_installed_packages:
   - sbt
   - coursier/formulas/coursier
   - libpq
+  - gh
 
 homebrew_taps:
   - homebrew/core
